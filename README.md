@@ -110,9 +110,15 @@ Fetch paginated list of posts with their authors and comments.
 
 ## Running Tests
 
-Run the test suite:
+1. **Include the application key in the `env.testing` file:**
 
-```bash
-php artisan test
-```
+   ```env
+   APP_KEY=base64:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx=
+   ```
+
+2. **Run the test suite:**
+
+   ```bash
+   php artisan test
+   ```
 
